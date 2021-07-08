@@ -1,0 +1,268 @@
+/* <!-- Header part Starts --> */
+
+#header {
+    background-color: var(--brand1);
+}
+
+#header .left-p {
+    color: var(--offwhite);
+    line-height: 40px;
+}
+
+#header .right_links {
+    display: inline-flex;
+    align-self: flex-end;
+}
+
+#header .right_links li a {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white);
+    padding: 9px;
+}
+
+#header .right_links li a:hover {
+    color: var(--black);
+}
+
+/* <!-- Header Part Ends --> */
+
+
+/* <!-- Navbar Part Starts --> */
+
+#nav {
+    padding: 10px 0;
+}
+
+#nav .logo {
+    height: 40px;
+}
+
+#nav .nav_links {
+    display: inline-flex;
+}
+
+#nav .nav_links a {
+    font-size: 14px;
+    font-family: "myriad-pro-regular";
+    color: var(--black);
+    line-height: 24px;
+    text-align: right;
+    padding: 10px 6px;
+}
+
+#nav .nav_links a:hover {
+    color: var(--brand1);
+}
+
+/* <!-- Navbar Part Ends --> */
+
+
+
+/* <!-- Banner Part Starts --> */
+
+#banner {
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 450px; */
+    /* border: 1px solid red; */
+}
+
+#banner .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 90px 0;
+}
+
+#banner .overlay .banner-content {
+    text-align: right;
+    color: var(--white);
+
+}
+
+#banner .overlay .banner-content h2 {
+    font-size: 30px;
+    font-family: "oswald-regular";
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+#banner .overlay .banner-content h1 {
+    font-size: 40px;
+    font-family: "oswald-bold";
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+#banner .overlay .banner-content p {
+    font-size: 13px;
+    font-family: "opensans-regular";
+    line-height: 1.846;
+    margin-bottom: 30px;
+}
+
+#banner .overlay .banner-content .btns {
+    display: inline-flex;
+    /* margin-bottom: 90px; */
+    /* justify-content: end; */
+}
+
+#banner .overlay .banner-content .btns a {
+    font-size: 14px;
+    font-family: "oswald-regular";
+    text-transform: uppercase;
+    line-height: 1.714;
+    color: var(--white);
+    padding: 10px 20px;
+    border: 2px solid var(--white);
+    margin-left: 20px;
+}
+
+#banner .overlay .banner-content .btns a:hover {
+    background-color: var(--brand1);
+    border: 2px solid var(--brand1);
+}
+
+
+
+/* <!-- Banner Part Ends --> */
+
+
+
+/* <!-- Common Part Starts --> */
+
+
+
+.common_heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.common_heading h2 {
+    font-size: 24px;
+    font-family: "oswald-bold";
+    color: var(--black);
+    text-transform: uppercase;
+    line-height: 1;
+    /* text-align: center; */
+    display: inline-block;
+    position: relative;
+    padding: 5px 0;
+    /* border: 1px solid red; */
+}
+
+.common_heading h2::before {
+    content: '';
+    position: absolute;
+    background-image: url('../img/under-line.png');
+    background-repeat: no-repeat;
+    height: 5px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+/* <!-- Common Part Ends --> */
+
+
+
+/* <!-- About Us Part Starts --> */
+
+#about_us{
+    padding: 60px 0;
+} 
+
+#about_us .left_img {
+    width: 100%;
+}
+
+#about_us .right_content {
+    /* color: var(--black); */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about_us .right_content p {
+    color: var(--black);
+    font-size: 13px;
+    font-family: "opensans-regular";
+    line-height: 1.846;
+    text-align: left;
+    margin: 15px 0;
+}
+
+/* <!-- About Us Part Ends --> */
+
+
+/* <!-- Our Services Part Starts --> */
+
+#service
+#service .common_heading
+#service .service_body
+   
+#service .service_body .top{
+    position: relative;
+    height: 50px;
+}
+#service .service_body .top .icon{
+    height: 85px;
+    width: 85px;
+    border: 4px solid var(--white);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#service .service_body .top .icon .borders{
+    border: 2px solid #f1f1f1 ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#service .service_body .top .icon .borders .inner_border{
+    border: 2px solid var(--white) ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+}
+
+#service .service_body .top .icon img{
+    height: 40px;
+}
+
+#service .service_body .bottom{
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 15px;
+    padding-top: 50px;
+}
+#service .service_body .bottom h4{
+        font-size: 16px;
+        font-family: "oswald-bold";
+        text-transform: uppercase;
+        line-height: 1.5;
+        margin-bottom: 15px;
+}
+
+#service .service_body .bottom p{
+        font-size: 13px;
+        font-family: "opensans";
+        color: rgb(85, 85, 85);
+        line-height: 1.846;
+      
+}
+
+
+/* <!-- Our Services Part Ends --> */
